@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/apk/res/android">
+    <style name="Theme.BiltuFreshChicken" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:colorAccent">#D72638</item>
+    </style>
+</resources>

@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "BiltuFreshChicken"
+include(":app")

@@ -29,10 +29,11 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build Debug APK
-  run: ./gradlew :app:assembleDebug
+        run: ./gradlew :app:assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: Biltu-Fresh-Chicken-APK
+          path: app/build/outputs/apk/debug/app-debug.apk          name: Biltu-Fresh-Chicken-APK
           path: app/build/outputs/apk/debug/app-debug.apk
